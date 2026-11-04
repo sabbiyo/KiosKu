@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semua Produk — Kiosku</title>
+  <meta name="description" content="Jelajahi seluruh koleksi produk Kiosku: fashion, sepatu, aksesori, elektronik, dan kecantikan.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">K</span> Kiosku
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Beranda</a>
+        <a href="produk.html" class="active">Semua Produk</a>
+        <a href="index.html#kategori">Kategori</a>
+        <a href="index.html#promo">Promo</a>
+        <a href="index.html#footer">Tentang Kami</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="icon-link" href="produk.html" aria-label="Cari produk">🔍</a>
+        <a class="cart-btn" href="keranjang.html">
+          🛒 Keranjang <span class="cart-count"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= JUDUL HALAMAN ================= -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Beranda</a>
+          <span>/</span>
+          <span>Semua Produk</span>
+        </div>
+        <h1>Semua Produk</h1>
+        <p>Temukan ribuan produk pilihan dengan harga terbaik dan gratis ongkir untuk belanja minimal Rp100.000.</p>
+      </div>
+    </section>
+
+    <!-- ================= KATALOG ================= -->
+    <section class="catalog">
+      <div class="container">
+
+        <!-- Toolbar: pencarian + filter + info -->
+        <div class="toolbar">
+          <form class="search-form" action="produk.html" method="get">
+            <input type="search" name="q" placeholder="Cari produk, merek, atau kategori…" aria-label="Cari produk">
+            <button class="btn btn-primary" type="submit">Cari</button>
+          </form>
+
+          <div class="filter-chips">
+            <a class="chip active" href="produk.html">Semua</a>
+            <a class="chip" href="produk.html">Pria</a>
+            <a class="chip" href="produk.html">Wanita</a>
+            <a class="chip" href="produk.html">Sepatu</a>
+            <a class="chip" href="produk.html">Aksesori</a>
+            <a class="chip" href="produk.html">Elektronik</a>
+          </div>
+
+          <span class="toolbar-meta">Menampilkan <b>12</b> dari <b>1.530</b> produk</span>
+        </div>
+
+        <!-- Grid produk -->
+        <div class="product-grid">
+
+          <article class="product-card">
+            <div class="product-media tint-1">
+              <span class="product-badge">-30%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">👕</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Fashion Pria</span>
+              <h3 class="product-name"><a href="produk.html">Kemeja Flannel Kotak Premium</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.9 (312)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp149.000</span>
+                <span class="price-old">Rp219.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#kemeja-flannel">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-2">
+              <span class="product-badge badge-new">Baru</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">👗</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Fashion Wanita</span>
+              <h3 class="product-name"><a href="produk.html">Dress Summer Bunga</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.8 (198)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp219.000</span>
+                <span class="price-old">Rp289.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#dress-summer">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-3">
+              <span class="product-badge">-25%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">👟</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Sepatu</span>
+              <h3 class="product-name"><a href="produk.html">Sneakers Putih Casual</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-text">4.7 (245)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp349.000</span>
+                <span class="price-old">Rp469.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#sneakers-putih">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-4">
+              <span class="product-badge">-20%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">🎒</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Aksesori</span>
+              <h3 class="product-name"><a href="produk.html">Tas Ransel Anti Air</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.9 (421)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp275.000</span>
+                <span class="price-old">Rp345.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#tas-ransel">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-5">
+              <span class="product-badge badge-new">Baru</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">🎧</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Elektronik</span>
+              <h3 class="product-name"><a href="produk.html">Headphone Bluetooth ANC</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.8 (176)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp399.000</span>
+                <span class="price-old">Rp549.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#headphone-anc">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-6">
+              <span class="product-badge">-40%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">💄</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Kecantikan</span>
+              <h3 class="product-name"><a href="produk.html">Set Lipstik Matte Warna</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-text">4.6 (530)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp99.000</span>
+                <span class="price-old">Rp165.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#lipstik-matte">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-1">
+              <span class="product-badge">-35%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">⌚</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Aksesori</span>
+              <h3 class="product-name"><a href="produk.html">Jam Tangan Klasik Kulit</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.9 (154)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp450.000</span>
+                <span class="price-old">Rp690.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#jam-klasik">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-3">
+              <span class="product-badge">-25%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">🧥</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Fashion Pria</span>
+              <h3 class="product-name"><a href="produk.html">Hoodie Oversize Fleece</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.8 (289)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp189.000</span>
+                <span class="price-old">Rp249.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#hoodie-fleece">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-4">
+              <span class="product-badge">-30%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">👖</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Fashion Pria</span>
+              <h3 class="product-name"><a href="produk.html">Jeans Slim Fit Biru Tua</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-text">4.7 (362)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp229.000</span>
+                <span class="price-old">Rp329.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#jeans-slim">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-6">
+              <span class="product-badge badge-new">Baru</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">🕶️</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Aksesori</span>
+              <h3 class="product-name"><a href="produk.html">Kacamata Retro UV400</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★☆</span>
+                <span class="rating-text">4.6 (98)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp120.000</span>
+                <span class="price-old">Rp175.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#kacamata-retro">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-2">
+              <span class="product-badge">-33%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">👜</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Fashion Wanita</span>
+              <h3 class="product-name"><a href="produk.html">Tas Selempang Kulit Sintetis</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.8 (214)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp199.000</span>
+                <span class="price-old">Rp299.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#tas-selempang">+ Keranjang</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media tint-5">
+              <span class="product-badge">-50%</span>
+              <button class="fav" type="button" aria-label="Simpan ke favorit">♡</button>
+              <span class="product-emoji">⌚</span>
+              <a class="quick-view" href="produk.html">Lihat Detail</a>
+            </div>
+            <div class="product-info">
+              <span class="product-cat">Elektronik</span>
+              <h3 class="product-name"><a href="produk.html">Smartwatch Fitnes AMOLED</a></h3>
+              <div class="product-meta">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">4.9 (407)</span>
+              </div>
+              <div class="product-price">
+                <span class="price-now">Rp349.000</span>
+                <span class="price-old">Rp699.000</span>
+              </div>
+              <a class="btn btn-primary add-btn" href="keranjang.html#smartwatch-amoled">+ Keranjang</a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Pagination -->
+        <nav class="pagination" aria-label="Navigasi halaman">
+          <a class="page-link" href="produk.html">‹</a>
+          <a class="page-link active" href="produk.html">1</a>
+          <a class="page-link" href="produk.html">2</a>
+          <a class="page-link" href="produk.html">3</a>
+          <a class="page-link" href="produk.html">…</a>
+          <a class="page-link" href="produk.html">128</a>
+          <a class="page-link" href="produk.html">›</a>
+        </nav>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html"><span class="logo-mark">K</span> Kiosku</a>
+          <p>
+            Toko online terpercaya untuk fashion, aksesori, dan elektronik.
+            Melayani pengiriman ke seluruh Indonesia sejak 2019.
+          </p>
+          <div class="footer-social">
+            <a href="index.html" aria-label="Instagram">IG</a>
+            <a href="index.html" aria-label="Facebook">FB</a>
+            <a href="index.html" aria-label="TikTok">TT</a>
+            <a href="index.html" aria-label="X">X</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Belanja</h4>
+          <ul>
+            <li><a href="produk.html">Semua Produk</a></li>
+            <li><a href="produk.html">Fashion Pria</a></li>
+            <li><a href="produk.html">Fashion Wanita</a></li>
+            <li><a href="produk.html">Aksesori</a></li>
+            <li><a href="index.html#promo">Promo</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bantuan</h4>
+          <ul>
+            <li><a href="index.html">Cara Belanja</a></li>
+            <li><a href="index.html">Info Pengiriman</a></li>
+            <li><a href="index.html">Retur &amp; Tukar</a></li>
+            <li><a href="index.html">Lacak Pesanan</a></li>
+            <li><a href="index.html">Hubungi Kami</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Perusahaan</h4>
+          <ul>
+            <li><a href="index.html">Tentang Kiosku</a></li>
+            <li><a href="index.html">Karier</a></li>
+            <li><a href="index.html">Kebijakan Privasi</a></li>
+            <li><a href="index.html">Syarat &amp; Ketentuan</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Kiosku. Hak cipta dilindungi.</span>
+        <div class="pay-badges">
+          <span>VISA</span>
+          <span>MASTERCARD</span>
+          <span>QRIS</span>
+          <span>DANA</span>
+          <span>GOPAY</span>
+          <span>BCA</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
